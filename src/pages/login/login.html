@@ -1,0 +1,28 @@
+<ion-content padding>
+<div>
+  <ion-grid>
+    <ion-row align-items-center justify-content-center>
+      <ion-col col-md-5>
+
+        <ion-list>
+            <h1>Login</h1>
+          <ion-item>
+            <ion-label> username : </ion-label>
+            <ion-input type="text" [(ngModel)]="username"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>password : </ion-label>
+            <ion-input type="password" [(ngModel)]="password"></ion-input>
+          </ion-item>
+
+
+        </ion-list>
+        <button ion-button round full (click)="SignIN()">Sign in</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+
+
+</ion-content>
